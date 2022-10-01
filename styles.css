@@ -33,7 +33,7 @@
 
 .main {
     /* background-color: yellow; */
-    width: 82.56rem;
+    width: 100%;
 }
 
 .contain {
@@ -43,7 +43,7 @@
 .infoContainer {
     /* background-color: white; */
     height: 28.71rem;
-    width: 67.2rem;
+    width: 61.2rem;
     margin: 5.0625rem auto;
     display: flex;
     justify-content: space-around;
@@ -53,6 +53,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    /* width: ; */
 }
 
 .hello {
@@ -98,6 +99,7 @@
     font-family: 'Fira Sans', sans-serif;
     font-size: 1.375rem;
     margin: 1.4375rem 0;
+    width: 90%;
 }
 
 
@@ -309,7 +311,7 @@ p {
   .cross{
     margin-left: 12.5rem;
   }
-  @media (max-width: 815px) {
+  @media (max-width: 1130px) {
     .devPic{
         display: none;
     }
